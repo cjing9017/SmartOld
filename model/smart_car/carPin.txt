@@ -1,0 +1,28 @@
+0 1 serial port
+A5 scl
+A4 sda
+
+#define motorLeftF      9    //left  motor forward  PWM  IN1
+#define motorLeftB      5    //left  motor reversal PWM  IN2
+#define motorRightB     6    //right motor reversal PWM  IN3
+#define motorRightF     10   //right motor forward  PWM  IN4
+
+#define trailingRight  4     //trace of left   OUT1
+#define trailingLeft   7     //trace of right  OUT2
+
+#define checkV         A2    //voltage signal
+#define powerState     A3    //detect the power state
+
+#define servoPin       2     //servo signal   p2.8
+
+#define infraredRight   8   //left  infrared signal  OUT4
+#define infraredLeft   11  //right infrared signal   OUT3
+
+#define ultrasonicEcho A1  //Echo signal 
+#define ultrasonicTrig A0  //Trig signal
+
+int recvPinFRight  = 3;      //infrared right&front receive  
+
+PWM 3 11
+
+ 
